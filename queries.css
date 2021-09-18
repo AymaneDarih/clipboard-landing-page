@@ -1,0 +1,77 @@
+@media (max-width:24em){
+    .head{
+    background: url(./images/bg-header-mobile.png) no-repeat fixed,  linear-gradient(180deg, #FCFCFC 44.06%, rgba(28, 28, 29, 0) 100%) ;
+    background-size: cover;
+    height: 100%;
+    border-bottom: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
+    }
+    html{
+        font-size: 48%;
+    }
+    .container{
+        max-width: 40rem;
+        padding: 5rem 0;
+    }
+    .logo{
+        width: 40%;
+    }
+    .container-head{
+        font-size: 3rem;
+    }
+    .p-head{
+        font-size: 2rem;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .device-img{
+        text-align: center;
+    }
+    .device-img img {
+        width: 80%;
+        margin-left: 0;
+
+    }
+    .flex-device p{
+        width: 100%;
+        padding: 0 3rem;
+    }
+    .tablet img{
+        width: 90%;
+    }
+    .grid-col-3{
+        grid-template-columns: 1fr;
+        row-gap: 3.2rem;
+    }
+    .feature p{
+        width: 70%;
+    }
+    .grid-col-5{
+        max-width: 40rem;
+        grid-template-columns: 1fr;
+        row-gap: 8.4rem;
+        justify-items: center;
+    }
+    .grid-col-5 img{
+        width: 35%;
+    }
+    .grid-5{
+        max-width: 60rem;
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .footer-logo{
+        margin-bottom: 2rem;
+    }
+    .links a{
+        line-height: 2.2;
+    }
+    .icons{
+        margin-top: 2.2rem;
+    }
+}
